@@ -23,7 +23,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    setCurrentAnimation("hit");
+    // setCurrentAnimation("hit");
 
     emailjs
       .send(
@@ -31,9 +31,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Marcos Rivas",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "hire@marcosrr.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -72,7 +72,7 @@ const Contact = () => {
   };
 
   return (
-    <section className='relative flex lg:flex-row flex-col max-container'>
+    <section className='relative flex lg:flex-row flex-col contact-container'>
       {alert.show && <Alert {...alert} />}
 
       <div className='flex-1 min-w-[50%] flex flex-col'>
@@ -137,7 +137,7 @@ const Contact = () => {
         </form>
       </div>
 
-      <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
+      {/* <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
         <Canvas
           camera={{
             position: [0, 0, 5],
@@ -165,7 +165,7 @@ const Contact = () => {
             />
           </Suspense>
         </Canvas>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -13,17 +13,20 @@ const About = () => {
     <section className='max-container'>
       <h1 className='head-text'>
         Hello, I'm{" "}
-        <span className='blue-gradient_text font-semibold drop-shadow'>
+        <span className='red-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Marcos
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          I am a a passionate and dedicated Computer Science/Mathematics
+          graduate from Emory University.I am eagerly seeking full-time opportunities in software
+          engineering specially in the field of Generative AI where I can contribute,
+          learn from the latest technological trends, and grow alongisde mentors and powerful teams.
+          
         </p>
       </div>
 
@@ -50,8 +53,8 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            During my undergraduate education I had the wonderful opportunity to assist two powerful internship programs.
+            There I leveled up my skills and teamed up with talented people. Here's the rundown:
           </p>
         </div>
 

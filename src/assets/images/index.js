@@ -3,7 +3,9 @@ import meta from './meta.png'
 import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
-import logo from './logo.svg'
+import logo from './logon.png'
+import um from './um.png'
+import ea from './ea.png'
 
 export {
     hero,
@@ -11,5 +13,7 @@ export {
     shopify,
     starbucks,
     tesla,
-    logo
+    logo,
+    um,
+    ea
 }

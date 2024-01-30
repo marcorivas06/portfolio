@@ -26,6 +26,10 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import angular from './angular.svg'
+import kotlin from './kotlin.svg'
+import docker from './docker.svg'
+
 
 export {
     css,
@@ -55,5 +59,8 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    angular, 
+    kotlin,
+    docker
 }

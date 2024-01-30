@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { CTA } from "../components";
-import { projects } from "../constants";
+// import { projects } from "../constants";
 import { arrow } from "../assets/icons";
 
 const Projects = () => {
@@ -23,7 +23,7 @@ const Projects = () => {
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
-        {projects.map((project) => (
+        {/* {projects.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
               <div className={`btn-back rounded-xl ${project.theme}`} />
@@ -58,7 +58,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
 
       <hr className='border-slate-200' />
