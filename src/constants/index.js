@@ -10,6 +10,7 @@ import {
     git,
     github,
     html,
+    java,
     javascript,
     kotlin,
     linkedin,
@@ -63,6 +64,11 @@ export const skills = [
     {
         imageUrl: javascript,
         name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
         type: "Frontend",
     },
     {

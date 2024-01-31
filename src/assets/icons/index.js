@@ -29,6 +29,7 @@ import soundoff from './soundoff.png'
 import angular from './angular.svg'
 import kotlin from './kotlin.svg'
 import docker from './docker.svg'
+import java from './java-original.svg'
 
 
 export {
@@ -62,5 +63,6 @@ export {
     soundoff,
     angular, 
     kotlin,
-    docker
+    docker,
+    java
 }
