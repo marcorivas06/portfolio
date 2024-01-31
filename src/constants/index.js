@@ -1,4 +1,4 @@
-import { meta, shopify, um, tesla, ea } from "../assets/images";
+import { um, ea } from "../assets/images";
 import {
     angular,
     car,
@@ -129,7 +129,7 @@ export const experiences = [
         company_name: "Electronic Arts - EA",
         icon: ea,
         iconBg: "#ff4e4e",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2023 - Aug 2023",
         points: [
             "Worked on the upcoming “The Sims” game.",
             "Implemented features to clear the Player Profile cache in the admin panel, reducing QA process time by 20%.",
@@ -142,11 +142,6 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
     {
         name: 'GitHub',
         iconUrl: github,
