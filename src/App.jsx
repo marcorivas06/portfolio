@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-
+import { Analytics } from "@vercel/analytics/react"
 import { Footer, Navbar } from "./components";
 import { About, Contact, Home, Projects } from "./pages";
 
@@ -25,6 +25,7 @@ const App = () => {
           />
         </Routes>
       </Router>
+      <Analytics />
     </main>
   );
 };
