@@ -78,7 +78,7 @@ const About = () => {
                 contentStyle={{
                   borderBottom: "8px",
                   borderStyle: "solid",
-                  borderBottomColor: experience.iconBg,
+                  borderBottomColor: experience.iconFooter ? experience.iconFooter : experience.iconBg,
                   boxShadow: "none",
                 }}
               >

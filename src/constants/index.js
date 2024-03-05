@@ -1,4 +1,4 @@
-import { um, ea } from "../assets/images";
+import { um, ea, codermate } from "../assets/images";
 import {
     angular,
     car,
@@ -111,17 +111,17 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Bioinformatic Analyst",
-        company_name: "University of Miami",
-        icon: um,
-        iconBg: "#075536",
-        date: "May 2021 - August 2021",
+        title: "React Native Engineer",
+        company_name: "CoderMate",
+        icon: codermate,
+        iconBg: "#ffffff",
+        iconFooter: "#3f3de6",
+        date: "Nov 2023 - Present 2023",
         points: [
-            "Researched computational identification of different types of kinases that control nerve degeneration.",
-            "Ran an R process to curate data in order to identify different types of kinases.",
-            "Created a Machine Learning algorithm, that could detect potential kinases",
-            "Gathered data from a researcher and used a computational network propagation algorithm to identify direct flow of information to determine candidate kinases.",
-            " Created UI to visualize the outcome of the machine learning algorithm."
+            "Developed and maintained scalable app development using React Native, JavaScript, and TypeScript.",
+            "Spearheaded the integration of OpenAI services into applications.",
+            "Utilized Native Base for streamlined UI development, along with MongoDB and Redux.",
+            "Designed and implemented interactive information visualization enhancig users analytics.",
         ],
     },
     {
@@ -137,6 +137,20 @@ export const experiences = [
             "Created a new player search algorithm to include all player attributes, improving search accuracy by 30% and enhancing user engagement.",
             "Used Jasmine to test Angular-based front-end applications to ensure software reliability and maintainability.",
             "Created automated sign-in processes to improve QAs testing environment.",
+        ],
+    },
+    {
+        title: "Bioinformatic Analyst",
+        company_name: "University of Miami",
+        icon: um,
+        iconBg: "#075536",
+        date: "May 2021 - August 2021",
+        points: [
+            "Researched computational identification of different types of kinases that control nerve degeneration.",
+            "Ran an R process to curate data in order to identify different types of kinases.",
+            "Created a Machine Learning algorithm, that could detect potential kinases",
+            "Gathered data from a researcher and used a computational network propagation algorithm to identify direct flow of information to determine candidate kinases.",
+            " Created UI to visualize the outcome of the machine learning algorithm."
         ],
     },
 ];
