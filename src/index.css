@@ -53,11 +53,14 @@ body:has(.card[data-color="green"]:hover) {
     @apply text-white bg-gradient-to-r from-[#FBD72B] to-[#F9484A] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-3.5 text-center;
   }
   .btn-projects {
-    @apply text-white bg-gradient-to-r from-[#1F48AA] to-[#F111FB] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-5 py-3.5 text-center;
+    @apply text-white bg-gradient-to-r from-[#F9484A] to-[#FBD72B] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-5 py-3.5 text-center;
+  }
+  .btn-Resume {
+    @apply text-white bg-gradient-to-r from-[#F111FB] to-[#1F48AA] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-5 py-3.5 text-center;
   }
   
   .header {
-    @apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-10 right-0 left-0;
+    @apply flex justify-between sticky items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-neutral-100 z-10 right-0 left-0;
   }
 
   .footer {
