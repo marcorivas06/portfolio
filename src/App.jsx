@@ -11,7 +11,7 @@ const App = () => {
       try {
         const response = await fetch("https://api.ipify.org?format=json");
         const data = await response.json();      
-        fetch("https://portfoliomanager.herokuapp.com/api/ipaddresses", {
+        fetch("https://portfoliomanager-b8c3016c3756.herokuapp.com/api/ipaddresses", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
