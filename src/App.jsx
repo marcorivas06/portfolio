@@ -10,20 +10,23 @@ const App = () => {
     const fetchIp = async () => {
       try {
         const response = await fetch("https://api.ipify.org?format=json");
-        const data = await response.json();      
+        const data = await response.json();
         fetch("https://portfoliomanager-b8c3016c3756.herokuapp.com/api/ipaddresses", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({ip:data.ip}),
-        });
+        }).then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
       } catch (error) {
         console.error(error);
       }
     };
     fetchIp();
   }, []);
+  
 
   return (
     <main className="bg-slate-300/20">
