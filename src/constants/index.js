@@ -115,7 +115,7 @@ export const experiences = [
         company_name: "Electronic Arts - Madden EA Sports",
         icon: ea,
         iconBg: "#ff4e4e",
-        date: "May 2023 - Present",
+        date: "Apr 2024 - Present",
         points: [    
             "Engage in the day-to-day development and debugging of gameplay features for the Madden series, using ActionScript 2.0 within Flash Develop to ensure smooth and consistent game performance.",
             "Utilize Perforce (P4V) for efficient version control and Swarm for conducting thorough code reviews, contributing to the maintenance of code quality and team collaboration.",
